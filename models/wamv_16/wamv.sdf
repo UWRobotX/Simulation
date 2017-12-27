@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<sdf version="1.4">
+<model name="wamv">
+  <pose>0 0 0.2286 0 0 0</pose>
+  <static>true</static>
+    <link name="wamv">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>4.8768 1 1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://wamv_16/meshes/WAMV_16FT.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
